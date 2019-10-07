@@ -1,0 +1,88 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: .5fr 1fr 2fr .5fr;
+    grid-template-rows: auto auto auto; 
+    grid-template-areas: ". poster infos ."
+                        ". photos photos .";
+    margin: 2.5rem 0 1rem;
+}
+
+.movie-poster {
+    grid-area: poster;
+    img {
+        width: 100%;
+    }
+}
+
+.infos-grid {
+    grid-area: infos;
+    padding-left: 2.2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7,auto) .8fr;
+    grid-row-gap: 1rem;
+}
+
+
+.movie-title {
+    font-size: 3.5rem;
+}
+
+.movie-runtime, .movie-date, .movie-vote {
+    padding-right: 1rem;
+}
+
+.movie-tagline {
+    font-size: 2rem;
+    color: #01d277;
+}
+
+.movie-overview {
+    font-size: 1.3rem;
+    color: #b7c7bd;
+    opacity: .9;
+}
+
+.director-job {
+    font-size: 1.1rem;
+    padding-right: .4rem;
+    color: #01d277;
+}
+
+.director-name {
+    opacity: .9;
+}
+
+.main-cast { 
+    font-size: 1.1rem;
+    padding-right: .4rem;
+    line-height: 1rem;
+    color: #01d277;
+}
+
+.cast-grid {
+    grid-area: photos;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 2rem;
+
+    .title {
+        grid-column: 1/7;
+        font-size: 2rem;
+        opacity: .8;
+        padding-top: 2rem;
+        padding-bottom: .5rem;
+    }
+
+    .cast-img {
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        
+        img {
+            width: 100%;
+            transition: transform .2s ease;
+            will-change: transform;
+        }
+    }
+}

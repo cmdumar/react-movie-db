@@ -4,30 +4,23 @@ header {
     background: linear-gradient(180deg,rgba(0,0,0,.75),transparent);
 }
 
-nav ul{
+.nav {
     display: flex;
-    justify-content: space-between;
-    margin-block-start: 0;
-    li {
+    justify-content: center;
+    padding: 30px;
+    .nav-btn {
         list-style: none;
-        padding: 20px;
-        a {
-            text-decoration: none;
-            color: white;
-            font-weight: 700;
-            font-size: 16px;
-            border: 1px solid blue;
-            border-radius: 4px;
-            background-color: blue;
-            padding: 7px;
-            transition: ease-in .2s;
-            &:hover, &:focus {
-                background-color: white;
-                color: blue;
-            } 
-        }
-        input {
-            padding: 3px 5px;
+        text-decoration: none;
+        color: #01d277;
+        font-weight: 700;
+        font-size: 18px;
+        border: 1px solid #555;
+        border-radius: 2px;
+        background-color: #555;
+        padding: 7px;
+        transition: ease-in .2s;
+        &:hover, &:focus {
+            cursor: pointer;
         }
     }
 }

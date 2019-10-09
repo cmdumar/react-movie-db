@@ -15,7 +15,6 @@ class Home {
     searchResults = []
     term = ""
     currentPage = 1
-    link = ""
 
     fetchPopular (page) {
         runInAction(() => {
@@ -65,7 +64,6 @@ decorate(Home, {
     search: observable,
     currentPage: observable,
     term: observable,
-    link: observable,
     setPopular: action,
     setSearch: action,
     loaded: observable

@@ -6,6 +6,7 @@ This project was made with:
 2. MobX
 3. React Router
 4. Sass
+5. CSS Grid
 
 ## Note
 

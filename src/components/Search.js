@@ -38,12 +38,13 @@ const Search = observer(class extends Component {
                     </div> : 
                     <div className="loading">Loading...</div>
                 }
-                
-              <Pagination 
-                total={searchResults.total_results}
-                pageSize={20}
-                onChange={changePage}
-                />
+                <div className="paginator">
+                <Pagination 
+                    total={searchResults.total_results}
+                    pageSize={20}
+                    onChange={changePage}
+                    />
+                </div>
           </section>
       )
     }

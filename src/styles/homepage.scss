@@ -110,7 +110,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     font-size: 3.5rem;
 }
@@ -126,12 +125,12 @@
         border: 0;
         border-bottom: 1px solid #03ce76;
         color: #03ce76;
-        font-size: 16px;
+        font-size: 20px;
         &:focus {
             outline: 0;
         }
         &::placeholder {
-            font-size: 16px;
+            font-size: 19px;
         }
     }
 }

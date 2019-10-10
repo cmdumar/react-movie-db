@@ -4,23 +4,31 @@ header {
     background: linear-gradient(180deg,rgba(0,0,0,.75),transparent);
 }
 
-.nav {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+.menu-grid {
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
     .nav-btn {
-        list-style: none;
-        text-decoration: none;
-        color: #01d277;
-        font-weight: 700;
-        font-size: 18px;
-        border: 1px solid #555;
-        border-radius: 2px;
-        background-color: #555;
-        padding: 7px;
-        transition: ease-in .2s;
-        &:hover, &:focus {
-            cursor: pointer;
+        padding: 30px;
+        text-align: center;
+        .btn {
+            list-style: none;
+            text-decoration: none;
+            color: #01d277;
+            font-weight: 700;
+            font-size: 18px;
+            border: 1px solid #555;
+            border-radius: 2px;
+            background-color: #555;
+            padding: 7px;
+            transition: ease-in .2s;
+            &:hover, &:focus {
+                cursor: pointer;
+            }
         }
     }
 }

@@ -5,6 +5,12 @@
     padding: 30px;
 }
 
+@media screen and (max-width: 500px) {
+    .paginator {
+        padding: 20px 10px; 
+    }
+}
+
 .rc-pagination {
     font-weight: bold;
 }

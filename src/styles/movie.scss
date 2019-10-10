@@ -173,6 +173,23 @@
         a {
             color: inherit;
         }
+        img {
+            width: 100%;
+            transition: 0.2s transform ease;
+            will-change: transform;
+        }
+        &:hover {
+            cursor: pointer;
+            .infos-box {
+                opacity: 1;
+            }
+            &:before {
+                opacity: 1;
+            }
+            img {
+                transform: scale(1.05);
+            }
+        }
     }
     .infos-container a img {
         width: 100%;
@@ -209,6 +226,15 @@
         grid-template-columns: repeat(3,1fr);
         .title {
             grid-column: 1/4;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cast-grid {
+        grid-template-columns: repeat(2,1fr);
+        .title {
+            grid-column: 1/3;
         }
     }
 }

@@ -1,14 +1,27 @@
+# React Movie-DB
+
+React Movie-DB is a movie browser and search engine made with ReactJS and powered by (The Movie Database (TMDB))(https://developers.themoviedb.org/3).
+
+## Demo 
+
 This project is hosted on [Netlify](https://youthful-lewin-21e201.netlify.com/)
 
-## Movie DB
+## Tools
 
-This project was made with:
+* React Js
+* MobX
+* React Router
+* Sass
+* CSS Grid
 
-1. React Js
-2. MobX
-3. React Router
-4. Sass
-5. CSS Grid
+## Installation
+
+If you want to install this project locally:
+
+1. Clone the repo : git clone https://github.com/mohammadumar28/movie-db.git
+2. Change directory : cd movie-db
+3. Install packages : yarn install
+4. Launch project : yarn start
 
 ## Note
 

@@ -1,6 +1,6 @@
 # React Movie-DB
 
-React Movie-DB is a movie browser and search engine made with ReactJS and powered by (The Movie Database (TMDB))(https://developers.themoviedb.org/3).
+React Movie-DB is a movie browser and search engine made with ReactJS and powered by [The Movie Database (TMDB)](https://developers.themoviedb.org/3).
 
 ## Demo 
 

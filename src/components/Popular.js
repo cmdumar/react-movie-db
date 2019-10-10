@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import {observer} from "mobx-react"
 import { Link } from "react-router-dom"
 import store from "../store/home"
-import Pagination from "./Pagination"
+import Pagination from "rc-pagination"
 
 const nullw500 = require('../images/nullw500.png')
 
@@ -44,10 +44,13 @@ const Popular = observer(class extends Component {
                     </div> 
                     : <div className="loading">Loading...</div>
                 }
-                
+                <div className="paginator">
                 <Pagination
-                results={popular}
-                changePage={changePage} />
+                total={popular.total_results}
+                pageSize={20}
+                onChange={changePage}
+                />
+                </div>
             </section>
         )
     }

@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import {observer} from "mobx-react"
 import {Link} from "react-router-dom"
 import store from "../store/home"
-import Pagination from "./Pagination"
+import Pagination from "rc-pagination"
 
 const nullw500 = require('../images/nullw500.png')
 
@@ -39,9 +39,11 @@ const Search = observer(class extends Component {
                     <div className="loading">Loading...</div>
                 }
                 
-              <Pagination
-              results={searchResults}
-              changePage={changePage} />
+              <Pagination 
+                total={searchResults.total_results}
+                pageSize={20}
+                onChange={changePage}
+                />
           </section>
       )
     }

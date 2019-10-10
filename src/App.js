@@ -11,6 +11,7 @@ import Actor from "./components/Actor"
 
 const App = observer(class extends Component {
   componentDidMount() {
+    console.log("Pop", this.props.store.popular)
     this.props.store.fetchPopular(this.props.store.currentPage)
   }
 
@@ -24,12 +25,14 @@ const App = observer(class extends Component {
   }
 
   changePage = (e) => {
-    this.props.store.currentPage = e.target.value
+    this.props.store.currentPage = e
+    console.log("page", e)
     if(this.props.store.term.length === 0) {
       this.props.store.fetchPopular(this.props.store.currentPage)
     } else {
       this.props.store.fetchSearch(this.props.store.term, this.props.store.currentPage)
     }
+    this.scrollTop()
   }
 
   clearSearch = () => {

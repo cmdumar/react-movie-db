@@ -2,7 +2,8 @@ import React from "react"
 import Popular from "./Popular"
 import Search from "./Search"
 import "../styles/homepage.scss"
-
+import 'rc-pagination/assets/index.css'
+import "../styles/pagination.scss"
 const Home = (props) => {
     const {term, handleInput} = props
     return <div className="relative">

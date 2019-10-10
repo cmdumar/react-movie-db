@@ -1,7 +1,90 @@
-
-ul.pagination {
-    list-style: none;
-    li {
-        display: inline-block;
-    }  
+.paginator {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
+
+.rc-pagination {
+    font-weight: bold;
+}
+
+.rc-pagination-item {
+    border-radius: 2px;
+}
+
+.rc-pagination-item-active {
+    background-color: #01d277;
+    border-color: #01d277;
+    a {
+        color: black;
+    }
+}
+
+.rc-pagination-item:hover, .rc-pagination-item:focus {
+    border-color: #01d277;
+    background-color: #01d277;
+    outline: 0;
+    a {
+        color: black;
+    }
+}
+
+.rc-pagination-prev a, .rc-pagination-next a {
+    color: #01d277;
+}
+
+.rc-pagination-prev, .rc-pagination-next, .rc-pagination-jump-prev, .rc-pagination-jump-next {
+    border-radius: 2px;
+    background-color: black;
+    &:focus {
+        outline: 0;
+    }
+}
+// .rc-pagination {
+//     list-style: none;
+//     padding-left: 0;
+//     white-space: nowrap;
+//     font-size: 0;
+        
+//         .rc-pagination-item {
+//             border-top: 1px solid;
+//             border-bottom: 1px solid;
+//             border-left: 1px solid;
+//             display: inline-block;
+//             font-family: inherit;
+//             font-size: 14px;
+//             font-weight: bold;
+//             line-height: 1.4;
+//             text-align: center;
+//             text-decoration: none;
+//             user-select: none;
+//             white-space: nowrap;
+//             -webkit-tap-highlight-color: transparent;
+//             -webkit-appearance: none;
+//             &:first-of-type {
+//                 border-bottom-left-radius: 3px;
+//                 border-top-left-radius: 3px;
+//                 margin-left: 0;
+//             }
+//             &:last-of-type {
+//                 border-bottom-right-radius: 3px;
+//                 border-top-right-radius: 3px;
+//                 margin-left: 0;
+//                 border-right: 1px solid;
+//             }
+
+//             a {
+//                 text-decoration: none;
+//                 display: block;
+//                 padding: 8px 12px;
+//                 &:visited {
+//                     color: inherit;
+//                 }
+//             }
+//         }
+//         .rc-pagination-item-active, .rc-pagination-item-active a {
+//             color: grey;
+// 		    background-color: #f5f5f5;
+//         }
+//     }

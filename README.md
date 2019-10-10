@@ -12,4 +12,4 @@ This project was made with:
 
 ## Note
 
-All the data was fetched from [TMDB](https://developers.themoviedb.org/3) API
+All the data was fetched from [The Movie Database (TMDB)](https://developers.themoviedb.org/3) API

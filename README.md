@@ -1,3 +1,5 @@
+This project is hosted on [Netlify](https://youthful-lewin-21e201.netlify.com/)
+
 ## Movie DB
 
 This project was made with:

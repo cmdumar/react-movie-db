@@ -54,7 +54,7 @@ const App = observer(class extends Component {
     const directorId = crew ? director[0].id : null
     const { actorCredits } = actorStore
     return (
-      <>
+      <div className="relative">
         <Navigation 
         clearSearch={this.clearSearch}  
          />
@@ -135,7 +135,7 @@ const App = observer(class extends Component {
             null
           }
         </Switch>
-      </>
+      </div>
     )
   }
 })

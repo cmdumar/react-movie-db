@@ -30,7 +30,7 @@ If you want to install this project locally:
 
 - Email - [mohammadumar28@gmail.com](mailto:mohammadumar28@gmail.com)
 
-- Twitter - [@mohammadumar28](www.twitter.com/Mohammadumar28)
+- Twitter - [@mohammadumar28](https://www.twitter.com/Mohammadumar28)
 
 ## Note
 

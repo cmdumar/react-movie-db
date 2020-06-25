@@ -2,6 +2,9 @@
 
 React Movie-DB is a movie browser and search engine made with ReactJS and powered by [The Movie Database (TMDB)](https://developers.themoviedb.org/3).
 
+![screenshot](screenshot.png)
+
+
 ## Demo 
 
 This project is hosted on [Netlify](https://youthful-lewin-21e201.netlify.com/)

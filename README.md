@@ -4,7 +4,7 @@
 
 ![screenshot](screenshot.png)
 
-This webapp pulls more than 15k movies info from the API.
+This web app pulls more than 15k movies info from the API.
 
 ## Live Demo 
 
@@ -22,10 +22,10 @@ This project is proudly hosted on [Netlify](https://youthful-lewin-21e201.netlif
 
 If you want to install this project locally:
 
-1. Clone the repo : `git clone https://github.com/mohammadumar28/react-movie-db.git`
-2. Change directory : `cd react-movie-db`
-3. Install packages : `yarn install`
-4. Launch project : `yarn start`
+1. Clone the repo: `git clone https://github.com/mohammadumar28/react-movie-db.git`
+2. Change directory: `cd react-movie-db`
+3. Install packages: `yarn install`
+4. Launch project: `yarn start`
 
 ## Author
 

@@ -26,6 +26,12 @@ If you want to install this project locally:
 3. Install packages : yarn install
 4. Launch project : yarn start
 
+## Author
+
+- Email - [mohammadumar28@gmail.com](mailto:mohammadumar28@gmail.com)
+
+- Twitter - [@mohammadumar28](www.twitter.com/Mohammadumar28)
+
 ## Note
 
 All the data was fetched from [The Movie Database (TMDB)](https://developers.themoviedb.org/3) API

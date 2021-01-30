@@ -6,9 +6,9 @@
 
 This web app pulls more than 15k movies info from the API.
 
-## Live Demo 
+## Live Demo
 
-This project is proudly hosted on [Netlify](https://youthful-lewin-21e201.netlify.com/)
+This project is proudly hosted on [Netlify](https://react-movie-database-18.netlify.app/)
 
 ## Tools
 

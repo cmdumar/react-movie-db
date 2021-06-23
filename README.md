@@ -32,7 +32,3 @@ If you want to install this project locally:
 - Email - [mohammadumar28@gmail.com](mailto:mohammadumar28@gmail.com)
 
 - Twitter - [@mohammadumar28](https://www.twitter.com/Mohammadumar28)
-
-## Note
-
-All the data was fetched from [The Movie Database (TMDB)](https://developers.themoviedb.org/3) API

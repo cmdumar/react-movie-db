@@ -5,16 +5,23 @@ header {
 }
 
 .menu-grid {
-    
+
     .logo {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 50px;
+        width: 400px;
+
+        img {
+            width: 100%;
+        }
     }
+
     .nav-btn {
         padding: 30px;
         text-align: center;
+
         .btn {
             list-style: none;
             text-decoration: none;
